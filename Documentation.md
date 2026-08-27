@@ -48,7 +48,13 @@
 
 ### Documentation
 
-####
+#### Development week 1:
+
+| Week (of development) | What was accomplished | What needs to be done next | Misc / Other thoughts | Screenshots / other evidence |
+| ---- | ---- | ----- | ----------- |
+| 1 | This week I worked on the scroll scrubbing and creating a basic outline of the website, as well as some documentation / research scaffolding. I got the scroll scrubbing to work with javascript, with the help of a youtube video.| The next step is to figure out how to add text to the pages as you scroll through, which will be the primary method of displaying information. | I will have to do much of this at home as the videos I intend to use of Rome are blocked on school wifi. Probably need a scalable model that allows more pages and information done by this weekend, although I don't know how likely that is to happen with the other exams |Youtube video: https://www.youtube.com/watch?v=L1eu737bu70 ![image](DocumentationSS/jsScrollScrubbing.png)|
+| | | | |
+| | | | |
 
 ### Version Control
 

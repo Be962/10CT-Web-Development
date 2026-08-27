@@ -1,5 +1,5 @@
-const section = document.querySelector('section.vid')
-const vid = section.querySelector('video')
+const section = document.querySelector('section.vid') // Select the section with the video
+const vid = section.querySelector('video') // Select the video within the section
 
 vid.pause()
 
@@ -19,5 +19,5 @@ const scroll = () => {
 }
 
 scroll()
-window.addEventListener("scroll", scroll)
+window.addEventListener("scroll", scroll) // Request how far has been scrolled
 
