@@ -1,4 +1,16 @@
 
-section.vidd video {
-    height: 100%
+section.vid {
+    height: 10000px;
 }
+
+section.vid div.holder {
+    position: sticky;
+    top: 0;
+}
+
+section.vid video {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
