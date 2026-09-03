@@ -9,7 +9,7 @@ const scroll = () => {
 
     let percentage = distance / total // Percentage of video to be played
 
-    // Ensure that percentage is always between 0-1
+    // Make sure that percentage is always between 0-1
     percentage = Math.max(0, percentage) // Pick the larger one between percentage and 0
     percentage = Math.min(percentage, 1) // Pick the smaller one between percentage and 1
 
@@ -20,4 +20,5 @@ const scroll = () => {
 
 scroll()
 window.addEventListener("scroll", scroll) // Request how far has been scrolled
+
 

@@ -1,6 +1,6 @@
 
 section.vid {
-    height: 10000px;
+    height: 12000px;
 }
 
 section.vid div.holder {
@@ -12,5 +12,59 @@ section.vid video {
     height: 100%;
     object-fit: cover;
     width: 100%;
+    z-index: 1;
 }
 
+h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+}
+
+.overlayText {
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    font-size: 60px;
+    width: 100%;
+    height: 50%;
+    font-weight: bold;
+    position: fixed;    
+    z-index: 2;
+    display:flex;
+    flex-direction: column;
+}
+
+.fadeText {
+    animation: fadeText linear both; /* sets up an animation */
+    animation-timeline: scroll(root); /* sets the animation to using scroll as a timeline, rather than say time */
+}
+
+.textRange1 {
+    animation-range: 1000px 3000px; /* This sets the range that keyframes will act within */
+}
+
+.textRange2 {
+    animation-range: 5000px 7000px;
+}
+
+.textrange3 {
+    animation-range: 9000px 11000px;
+}
+
+
+@keyframes fadeText{ /* This determines at which point in the timeline different things happen, e.g. set opacity to 1 between 20% and 80% of the way through */
+    0% {
+        opacity: 0;
+    }
+    20%, 80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+} 
