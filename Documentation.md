@@ -53,7 +53,7 @@
 | Week (of development) | What was accomplished | What needs to be done next | Misc / Other thoughts | Screenshots / other evidence |
 | ---- | ---- | ----- | ----------- |
 | 1 | This week I worked on the scroll scrubbing and creating a basic outline of the website, as well as some documentation / research scaffolding. I got the scroll scrubbing to work with javascript, with the help of a youtube video. Regarding videos, I found the main video that I will use for this project, and have been editing it to the size that is needed.| The next step for coding is to figure out how to add text to the pages as you scroll through, which will be the primary method of displaying information. I also need to plan out all of the buildings I will be covering, as there are many I can do in one go, and even more if cuts and transitions are used. | I will have to do much of this at home as the videos I intend to use of Rome are blocked on school wifi. Probably need a scalable model that allows more pages and information done by this weekend, although I don't know how likely that is to happen with the other exams |Youtube video: https://www.youtube.com/watch?v=L1eu737bu70 ![image](DocumentationSS/jsScrollScrubbing.png)|
-| | | | |
+| 2 | This week has included putting text in the website in animation form, allowing it to be tinkered with until it looks cinematic. Also I am almost finished editing the video down into parts that I can put in the website. Plus I have a list of different buildings that I am planning to describe and put in the website. | Next up is transitions between pages and the implementation of the video must be done. | ![image](DocumentationSS/cssTextAnimation.png) |
 | | | | |
 
 ### Version Control
