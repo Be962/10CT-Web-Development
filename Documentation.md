@@ -36,6 +36,10 @@
 
 ### Secondary research  
 
+#### Worldwide, according to UNESCO Global Education, upper secondary school completion rates sit at around 61% (year 12). This means that 61% of the year completes upper secondary school each year. And while this is going up, it is slowing down. Which means that there are still many adults from before these relatively high education rates that are still not high school educated. All this is to say that education access or completion rates are not as high as they could be. In contrast, the global digital overview puts individual phone owners at 6.12 billion, as of April 2026. This means that 73.65% of people own a phone worldwide, higher among adults, however a significant amount of children own phones as well. These number when compared show that phone access is comparatively higher than secondary school education access, which is something that my website will attempt to alleviate. 
+
+#### By providing history information and education in an interactive way to people who do not have access to formal education, but do have access to digital technology and the internet, my web app will help relieve this education problem. Because the website will be in english, it will be targeted towards english speaking countries, which already generally have higher completion rates, however even in these countries, phone access is correspondingly higher. 
+
 ### Primary research
 
 ### UI/UX Design
