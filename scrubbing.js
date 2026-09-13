@@ -18,6 +18,7 @@ const scroll = () => {
     }
 }
 
+
 scroll()
 window.addEventListener("scroll", scroll) // Request how far has been scrolled
 
