@@ -1,0 +1,15 @@
+.textRange1 { 
+    animation-range: 1000px 3000px;
+}
+
+.textRange2 {
+    animation-range: 5000px 7000px;
+}
+
+.textRange3 {
+    animation-range: 9000px 11000px;
+}
+
+.textRange4 {
+    animation-range: 11000px 12000px;
+}

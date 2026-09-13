@@ -1,0 +1,107 @@
+section.vid.vid1 { /* Each video has a different length, so each section has to have a corresponding scroll height. I set it to be the number of seconds * 1000 pixels, so the scrolling feels consistent across each page. */
+    height: 29000px;
+}
+
+section.vid.vid2 {
+    height: 37000px;
+}
+
+section.vid.vid3 {
+    height: 16000px;
+}
+
+section.vid.vid4 {
+    height: 27000px;
+}
+
+section.vid.vid5 {
+    height: 14000px;
+}
+
+section.vid.vid6 {
+    height: 38000px;
+}
+
+section.vid.vid7 {
+    height: 17000px;
+}
+
+section.vid div.holder {
+    position: sticky;
+    top: 0;
+}
+
+section.vid video {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    z-index: 1;
+}
+
+h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+}
+
+.overlayText { /* Cinematic overlay text, this text is 'big picture' captions that should be large and center */
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    font-size: 60px;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    position: fixed;    
+    z-index: 2;
+    display:flex;
+    flex-direction: column;
+}
+
+.buttonPosition {
+    bottom: 0;
+    height: none;
+    left: 0;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.fadeText { /* Creates the animation that the text calls on */
+    animation: fadeText linear both; /* sets up an animation */
+    animation-timeline: scroll(root); /* sets the animation to using scroll as a timeline, rather than say time */
+}
+
+.buttonState { /* Creates the animation that the button (the page swapper) calls on */
+    animation: buttonState linear both;
+    animation-timeline: scroll(root);
+}
+
+/* This sets the range that keyframes will act within */
+
+
+@keyframes fadeText{ /* This determines at which point in the timeline different things happen, e.g. set opacity to 1 between 20% and 80% of the way through */
+    0% {
+        opacity: 0;
+    }
+    20%, 80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+} 
+
+@keyframes buttonState{
+    0% {
+        opacity: 0; 
+        pointer-events: none;
+    }
+    20%, 100% {
+        opacity: 1;
+        pointer-events: all;
+    }
+}
