@@ -1,31 +1,3 @@
-section.vid.vid1 { /* Each video has a different length, so each section has to have a corresponding scroll height. I set it to be the number of seconds * 1000 pixels, so the scrolling feels consistent across each page. */
-    height: 29000px;
-}
-
-section.vid.vid2 {
-    height: 37000px;
-}
-
-section.vid.vid3 {
-    height: 16000px;
-}
-
-section.vid.vid4 {
-    height: 27000px;
-}
-
-section.vid.vid5 {
-    height: 14000px;
-}
-
-section.vid.vid6 {
-    height: 38000px;
-}
-
-section.vid.vid7 {
-    height: 17000px;
-}
-
 section.vid div.holder {
     position: sticky;
     top: 0;
@@ -38,9 +10,22 @@ section.vid video {
     z-index: 1;
 }
 
+a:visited { /*keep the link the same colour after it has been visited */
+    color:rgb(212, 198, 126);
+    text-decoration: none;
+}
+
 h1 {
     color: white;
+    font-weight: lighter;
     font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: white;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    color: inherit;
 }
 
 body {
@@ -52,31 +37,126 @@ body {
     justify-content: center;
     text-align: center;
     align-content: center;
-    font-size: 60px;
+    font-size: 40px;
     width: 100%;
     height: 100%;
-    font-weight: bold;
+    font-weight: lighter;
     position: fixed;    
     z-index: 2;
-    display:flex;
+    display: flex;
     flex-direction: column;
+    font-family: "Times New Roman", Times, serif;
 }
 
-.buttonPosition {
-    bottom: 0;
-    height: none;
-    left: 0;
+.overlayText h2{
+
+    font-size: 40px;
+    width: 100%;
+    bottom: 10%;
+    
+    font-weight: lighter;
+    position: fixed;    
+    z-index: 2;
+    font-family: "Times New Roman", Times, serif;
+
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    align-content: center;
+    align-items: center;
     text-align: center;
-    padding: 10px 0px;
+    display:flex;
+    
+}
+
+.nextPageButton a {
+    transform: translateX(-50%);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    bottom: 10%;
+    z-index: 3;
+    left: 50%;
+
+    background-color: rgba(255, 255, 255, 0);
+    border-color: #F6CEA0;
+    border-style: solid;
+    color: white;
+
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    display:flex;
+    
+    border-width: 2px;
+    border-radius: 50%;
+    
+    font-family: "Times New Roman", Times, serif;
+    font-weight: lighter;
+
+    transition:all 0.5s ease-in-out;
+}
+
+.nextPageButton a:hover { /* Changes the button when hovered over */
+    
+    background-color: white;
+    border-color: white;
+    color: #F6CEA0;
+
+}
+
+.informationButton {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: #F6CEA0;
+    border-style: solid;
+    color: white;
+
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    display:flex;
+
+    position: fixed;
+    height: 130px;
+    width: 130px;
+    font-size: large;
+
+    z-index: 3;
+
+    border-width: 2px;
+    border-radius: 50%;
+    
+    font-family: "Times New Roman", Times, serif;
+    font-weight: lighter;
+
+    transition:all 0.5s ease-in-out;
+}
+
+.informationButton:hover {
+
+    background-color: white;
+    border-color: white;
+    color: #F6CEA0;
 }
 
 .fadeText { /* Creates the animation that the text calls on */
-    animation: fadeText linear both; /* sets up an animation */
-    animation-timeline: scroll(root); /* sets the animation to using scroll as a timeline, rather than say time */
+    animation: fadeText cubic-bezier(0.25, 0.46, 0.45, 0.94) both; /* sets up an animation */
+    animation-timeline: scroll(root); /* sets the animation to using scroll as a timeline, rather than time */
 }
 
 .buttonState { /* Creates the animation that the button (the page swapper) calls on */
     animation: buttonState linear both;
+    animation-timeline: scroll(root);
+}
+
+.infoFade {
+    animation: infoFade linear both;
     animation-timeline: scroll(root);
 }
 
@@ -86,9 +166,13 @@ body {
 @keyframes fadeText{ /* This determines at which point in the timeline different things happen, e.g. set opacity to 1 between 20% and 80% of the way through */
     0% {
         opacity: 0;
+        filter:drop-shadow(0px 0px 0px rgba(black, 0));
+        transform: translateY(30px);
     }
     20%, 80% {
         opacity: 1;
+        filter:drop-shadow(4px 4px 8px rgba(black, 1));
+        transform: translateY(0px);
     }
     100% {
         opacity: 0;
@@ -105,3 +189,19 @@ body {
         pointer-events: all;
     }
 }
+
+@keyframes infoFade {
+    0% {
+        opacity: 0;
+        filter:drop-shadow(0px 0px 0px rgba(black, 0));
+        transform: translateY(30px);
+    }
+    10%, 90% {
+        opacity: 1;
+        filter:drop-shadow(4px 4px 8px rgba(black, 1));
+        transform: translateY(0px);
+    }
+    100% {
+        opacity: 0;
+    }
+} 

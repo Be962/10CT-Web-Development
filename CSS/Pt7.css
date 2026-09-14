@@ -1,3 +1,7 @@
+section.vid.vid7 {
+    height: 25500px;
+}
+
 .textRange1 { 
     animation-range: 1000px 3000px;
 }
@@ -10,6 +14,10 @@
     animation-range: 9000px 11000px;
 }
 
-.textRange4 {
-    animation-range: 11000px 12000px;
+.nextPageRange {
+    animation-range: 16000px 17000px;
+}
+
+.captionsRange1{
+    animation-range: 14000px 17000px;
 }

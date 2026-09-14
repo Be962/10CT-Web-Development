@@ -1,15 +1,97 @@
+section.vid.vid1 { /* Each video has a different length, so each section has to have a corresponding scroll height. I set it to be the number of seconds * 1000 pixels, so the scrolling feels consistent across each page. */
+    height: 36250px;
+}
+
 .textRange1 { 
-    animation-range: 1000px 3000px;
+    animation-range: 1250px 3750px;
 }
 
 .textRange2 {
-    animation-range: 5000px 7000px;
+    animation-range: 6250px 8750px;
 }
 
 .textRange3 {
-    animation-range: 9000px 11000px;
+    animation-range: 11250px 13750px;
 }
 
-.textRange4 {
-    animation-range: 11000px 12000px;
+.nextPageRange {
+    animation-range: 35000px 36250px;
+}
+
+.captionsRange1{
+    animation-range: 15000px 16600px;
+}
+
+.colosseumRange{
+    animation-range: 16660px 22500px;
+}
+
+.colossusSolisRange{
+    animation-range: 16660px 28000px;
+}
+
+.templeOfVenusRange{
+    animation-range: 17000px 26600px;
+}
+
+
+.metaSudansFountainRange{
+    animation-range: 16250px 18750px;
+}
+
+.archOfConstantineRange{
+    animation-range: 15830px 18000px;
+}
+
+/* <!-- Colossus Solis, Temple of venus and Roma, Meta Sudans fountain, Arch of Constantine --> */
+
+.colossusSolisButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+.colossusSolisInfo {
+    opacity: 0;
+    position:fixed;
+    top: 150px;
+    width: 200px;
+}
+
+.colossusSolisButton:hover .colossusSolisInfo {
+    opacity: 1;
+}
+
+.templeOfVenusButton {
+
+    position: fixed;
+    top: 8%;
+    left: 10%;
+
+}
+
+.metaSudansFountainButton {
+
+    position: fixed;
+    bottom: 8%;
+    left: 40%
+
+}
+
+.archOfConstantineButton {
+
+    position: fixed;
+    bottom: 6%;
+    left: 20%
+
+}
+
+.colosseumButton {
+
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+
 }

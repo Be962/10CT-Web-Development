@@ -10,8 +10,8 @@ const scroll = () => {
     let percentage = distance / total // Percentage of video to be played
 
     // Make sure that percentage is always between 0-1
-    percentage = Math.max(0, percentage) // Pick the larger one between percentage and 0
-    percentage = Math.min(percentage, 1) // Pick the smaller one between percentage and 1
+    percentage = Math.max(0, percentage) // Pick the larger one between percentage and 0, means percentage will never be less than 0
+    percentage = Math.min(percentage, 1) // Pick the smaller one between percentage and 1, means percentage will never be more than 1
 
     if (vid.duration > 0) { // Video loaded
         vid.currentTime = vid.duration * percentage // Set the time of the video to the amount that has been scrolled 
