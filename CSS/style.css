@@ -46,15 +46,16 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Times New Roman", Times, serif;
+    color: #E6D8BE;
 }
 
 .overlayText h2{
 
-    font-size: 40px;
+    font-size: 50px;
     width: 100%;
     bottom: 10%;
     
-    font-weight: lighter;
+    font-weight: light;
     position: fixed;    
     z-index: 2;
     font-family: "Times New Roman", Times, serif;
@@ -66,7 +67,20 @@ body {
     align-items: center;
     text-align: center;
     display:flex;
+
+    color:#E6D8BE;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
     
+}
+
+.titlePage{
+
+    font-size: 240px;
+    color:#C0392B; 
+    text-shadow: 0 0 100px rgba(0, 0, 0, 0.9);
+    text-shadow: 0 0 100px rgba(0, 0, 0, 0.9);
+    text-shadow: 0 0 100px rgba(0, 0, 0, 0.9);
+    letter-spacing: 80px
 }
 
 .nextPageButton a {
@@ -79,7 +93,7 @@ body {
     left: 50%;
 
     background-color: rgba(255, 255, 255, 0);
-    border-color: #F6CEA0;
+    border-color: #C0392B;
     border-style: solid;
     color: white;
 
@@ -104,13 +118,13 @@ body {
     
     background-color: white;
     border-color: white;
-    color: #F6CEA0;
+    color: #C0392B;
 
 }
 
 .informationButton {
     background-color: rgba(255, 255, 255, 0);
-    border-color: #F6CEA0;
+    border-color: #C0392B;
     border-style: solid;
     color: white;
 
@@ -142,7 +156,7 @@ body {
 
     background-color: white;
     border-color: white;
-    color: #F6CEA0;
+    color: #C0392B;
 }
 
 .fadeText { /* Creates the animation that the text calls on */

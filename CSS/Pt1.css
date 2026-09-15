@@ -1,4 +1,4 @@
-section.vid.vid1 { /* Each video has a different length, so each section has to have a corresponding scroll height. I set it to be the number of seconds * 1000 pixels, so the scrolling feels consistent across each page. */
+section.vid.vid1 { /* Each video has a different length, so each section has to have a corresponding scroll height. I set it to be the number of seconds * 1250 pixels, so the scrolling feels consistent across each page. */
     height: 36250px;
 }
 

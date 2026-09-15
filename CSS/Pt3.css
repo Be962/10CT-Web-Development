@@ -1,5 +1,5 @@
 section.vid.vid3 {
-    height: 24000px;
+    height: 20000px;
 }
 
 .textRange1 { 
@@ -15,9 +15,13 @@ section.vid.vid3 {
 }
 
 .nextPageRange {
-    animation-range: 15000px 16000px;
+    animation-range: 19000px 20000px;
 }
 
 .captionsRange1{
-    animation-range: 14000px 17000px;
+    animation-range: 3000px 4660px;
+}
+
+.captionsRange2{
+    animation-range: 13500px 15160px;
 }
