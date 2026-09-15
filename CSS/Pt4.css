@@ -25,3 +25,25 @@ section.vid.vid4 {
 .captionsRange2{
     animation-range: 22000px 23660px;
 }
+
+/* Points of Interest */
+
+.templeOfMinerva {
+    animation-range: 5000px 10000px;
+}
+
+.divorum {
+    animation-range: 5000px 10000px;
+}
+
+.minuciaFrumentaria {
+    animation-range: 24000px 29000px;
+}
+
+.templeofNymphs {
+    animation-range: 24000px 29000px;
+}
+
+.theatreOfBalbus {
+    animation-range: 26000px 29000px;
+}

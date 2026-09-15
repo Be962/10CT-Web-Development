@@ -25,3 +25,20 @@ section.vid.vid6 {
 .captionsRange2{
     animation-range: 44000px 45660px;
 }
+
+/* Points of Interest */
+.gardensOfAgrippa{
+    animation-range: 5000px 40000px;
+}
+
+.bathsOfAgrippa {
+    animation-range: 10000px 20000px;
+}
+
+.basilicaOfNeptune {
+    animation-range: 20000px 30000px;
+}
+
+.bathsOfAlexanderSeverus {
+    animation-range: 30000px 40000px;
+}

@@ -33,3 +33,115 @@ section.vid.vid2 {
 .captionsRange4{
     animation-range: 39000px 40660px;
 }
+
+/* Points of Interest */
+
+.culturalStorage {
+    animation-range: 5000px 15000px;
+}
+
+.porticoPax {
+    animation-range: 16000px 20000px;
+}
+
+.templeOfMinerva {
+    animation-range: 28000px 31000px;
+}
+
+.uglyColumns {
+    animation-range: 27000px 32000px;
+}
+
+.marsUltor {
+    animation-range: 41000px 45000px;
+}
+
+.forumAugustus {
+    animation-range: 41200px 45000px;
+}
+
+.forumCaesar {
+    animation-range: 33000px 35000px;
+}
+
+.forumNerva {
+    animation-range: 27000px 32000px;
+}
+
+.forumPeace {
+    animation-range: 6000px 21000px;
+}
+
+/* Points of Interest Buttons (Placeholders for Now)*/
+
+.culturalStorageButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+.porticoPaxButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+.templeOfMinervaButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+.uglyColumnsButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+.marsUltorButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+.forumAugustusButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+.forumCaesarButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+.forumNervaButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+.forumPeaceButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}

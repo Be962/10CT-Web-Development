@@ -22,6 +22,8 @@ section.vid.vid1 { /* Each video has a different length, so each section has to 
     animation-range: 15000px 16600px;
 }
 
+/* Points of Interest */
+
 .colosseumRange{
     animation-range: 16660px 22500px;
 }

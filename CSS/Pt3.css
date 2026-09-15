@@ -1,5 +1,5 @@
 section.vid.vid3 {
-    height: 20000px;
+    height: 30000px;
 }
 
 .textRange1 { 
@@ -15,7 +15,7 @@ section.vid.vid3 {
 }
 
 .nextPageRange {
-    animation-range: 19000px 20000px;
+    animation-range: 29000px 30000px;
 }
 
 .captionsRange1{
@@ -23,5 +23,174 @@ section.vid.vid3 {
 }
 
 .captionsRange2{
-    animation-range: 13500px 15160px;
+    animation-range: 21500px 23160px;
 }
+
+/* Points of Interest */
+
+.venusGenetrix {
+    animation-range: 7500px 12000px;
+}
+
+.forumCaesar {
+    animation-range: 7000px 13000px;
+}
+
+.forumRomanum {
+    animation-range: 24200px 29000px;
+}
+
+.comitium {
+    animation-range: 24400px 28500px;
+}
+
+/* wow theres a lot of stuff in the roman forum */
+
+.archOfSeverusSeptimus {
+    animation-range: 24200px 29000px;
+}
+
+.templeOfSaturn {
+    animation-range: 24200px 29000px;
+}
+
+.curiaJulia {
+    animation-range: 24200px 29000px;
+}
+
+.templeOfVespasianAndTitus {
+    animation-range: 24200px 29000px;
+}
+
+.basilicaAemilia {
+    animation-range: 18000px 24000px;
+}
+
+.gemonianStairs {
+    animation-range: 24000px 29000px;
+}
+
+.templeOfJanus {
+    animation-range: 24000px 29000px;
+}
+
+.basilicaPorcia {
+    animation-range: 24000px 29000px;
+}
+
+.venusGenetrixButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+
+.forumCaesarButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+
+.forumRomanumButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+
+.comitiumButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+
+.archOfSeverusSeptimusButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+
+.templeOfSaturnButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+
+.curiaJuliaButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+
+.templeOfVespasianAndTitusButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+.basilicaAemiliaButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+
+.gemonianStairsButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+
+.templeOfJanusButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+.basilicaPorcia {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+
+/* Things that might be added later
+Basilica Sempronia
+Temple of Concordia
+Basilica Opimia
+Clivus Argentarius
+Lacus Curtius
+Lapis Niger
+Rostra
+Temple of Castor and Pollux
+*/
