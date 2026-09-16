@@ -29,7 +29,7 @@ section.vid.vid1 { /* Each video has a different length, so each section has to 
 }
 
 .colossusSolisRange{
-    animation-range: 16660px 28000px;
+    animation-range: 16660px 26000px;
 }
 
 .templeOfVenusRange{
@@ -53,17 +53,6 @@ section.vid.vid1 { /* Each video has a different length, so each section has to 
     top: 10%;
     left: 83%
 
-}
-
-.colossusSolisInfo {
-    opacity: 0;
-    position:fixed;
-    top: 150px;
-    width: 200px;
-}
-
-.colossusSolisButton:hover .colossusSolisInfo {
-    opacity: 1;
 }
 
 .templeOfVenusButton {

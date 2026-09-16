@@ -33,7 +33,9 @@ body {
     text-align: center;
 }
 
-.overlayText { /* Cinematic overlay text, this text is 'big picture' captions that should be large and center */
+/* This determines where text will appear */
+
+.overlayText {
     justify-content: center;
     text-align: center;
     align-content: center;
@@ -150,6 +152,7 @@ body {
     font-weight: lighter;
 
     transition:all 0.5s ease-in-out;
+    pointer-events: none;
 }
 
 .informationButton:hover {
@@ -157,6 +160,48 @@ body {
     background-color: white;
     border-color: white;
     color: #C0392B;
+}
+
+.informationButton h3 {
+    font-weight: lighter;
+}
+
+.bottomText h3{
+    opacity: 0;
+    position:fixed;
+    top: 150px;
+    width: 200px;
+    pointer-events: none;
+}
+
+.leftText h3{
+    opacity: 0;
+    position:fixed;
+    right: 150px;
+    width: 200px;
+    pointer-events: none;
+}
+
+.rightText h3{
+    opacity: 0;
+    position:fixed;
+    left: 150px;
+    width: 200px;
+    pointer-events: none;
+}
+
+.upText h3{
+    opacity: 0;
+    position:fixed;
+    bottom: 150px;
+    width: 200px;
+    pointer-events: none;
+}
+
+.informationButton:hover h3{
+    opacity: 1;
+    color: white;
+    transition:all 0.5s ease
 }
 
 .fadeText { /* Creates the animation that the text calls on */
@@ -214,6 +259,7 @@ body {
         opacity: 1;
         filter:drop-shadow(4px 4px 8px rgba(black, 1));
         transform: translateY(0px);
+        pointer-events: auto; /* This fixes the problem that buttons that overlapped but were invisible because of different animation ranges stopped each other from working.*/
     }
     100% {
         opacity: 0;
