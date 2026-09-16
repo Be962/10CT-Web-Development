@@ -47,3 +47,43 @@ section.vid.vid4 {
 .theatreOfBalbus {
     animation-range: 26000px 29000px;
 }
+
+.templeOfMinervaButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+.divorumButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+.minuciaFrumentariaButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+.templeofNymphsButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+.theatreOfBalbusButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}

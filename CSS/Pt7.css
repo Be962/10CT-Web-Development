@@ -25,5 +25,13 @@ section.vid.vid7 {
 /* Points of Interest */
 
 .thePantheon {
-    
+    animation-range: 6000px 20000px;
+}
+
+.thePantheonaButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
 }

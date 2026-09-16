@@ -43,3 +43,43 @@ section.vid.vid5 {
 .templeLaresPermarini {
     animation-range: 5000px 15500px;
 }
+
+.templeJuturnaButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+.templeFurtunaHuiusceDieiButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+.templeFeroniaButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+.templeLaresPermariniButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
+
+.largoArgentinaButton {
+
+    position: fixed;
+    top: 10%;
+    left: 83%
+
+}
