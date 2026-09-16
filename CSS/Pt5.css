@@ -25,54 +25,54 @@ section.vid.vid5 {
 /* Points of Interest */
 
 .largoArgentina{
-    animation-range: 5000px 16500px;
+    animation-range: 6000px 16500px;
 }
 
 .templeJuturna {
-    animation-range: 5000px 12500px;
+    animation-range: 11500px 13500px;
 }
 
 .templeFurtunaHuiusceDiei {
-    animation-range: 5000px 13500px;
+    animation-range: 10000px 11500px;
 }
 
 .templeFeronia {
-    animation-range: 5000px 14500px;
+    animation-range: 8000px 11000px;
 }
 
 .templeLaresPermarini {
-    animation-range: 5000px 15500px;
+    animation-range: 8000px 10500px;
 }
 
 .templeJuturnaButton {
 
     position: fixed;
     top: 10%;
-    left: 83%
+    left: 50%
 
 }
 
 .templeFurtunaHuiusceDieiButton {
 
     position: fixed;
-    top: 10%;
-    left: 83%
+    top: 80%;
+    left: 50%
 
 }
 
 .templeFeroniaButton {
 
     position: fixed;
-    top: 10%;
-    left: 83%
+    top: 40%;
+    left: 43%
 
 }
 
 .templeLaresPermariniButton {
 
     position: fixed;
-    top: 10%;
-    left: 83%
+    top: 30%;
+    left: 33%
 
 }
 

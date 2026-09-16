@@ -29,60 +29,56 @@ section.vid.vid3 {
 /* Points of Interest */
 
 .venusGenetrix {
-    animation-range: 7500px 12000px;
+    animation-range: 5000px 9000px;
 }
 
 .forumCaesar {
-    animation-range: 7000px 13000px;
+    animation-range: 5000px 13000px;
 }
 
 .forumRomanum {
-    animation-range: 24200px 29000px;
+    animation-range: 22200px 28000px;
 }
 
 .comitium {
-    animation-range: 24400px 28500px;
+    animation-range: 24400px 27500px;
 }
 
 /* wow theres a lot of stuff in the roman forum */
 
 .archOfSeverusSeptimus {
-    animation-range: 24200px 29000px;
+    animation-range: 22200px 25000px;
 }
 
 .templeOfSaturn {
-    animation-range: 24200px 29000px;
+    animation-range: 20200px 24000px;
 }
 
 .curiaJulia {
     animation-range: 24200px 29000px;
 }
 
-.templeOfVespasianAndTitus {
-    animation-range: 24200px 29000px;
+.basilicaSempronia {
+    animation-range: 20200px 23000px
 }
 
 .basilicaAemilia {
-    animation-range: 18000px 24000px;
-}
-
-.gemonianStairs {
-    animation-range: 24000px 29000px;
+    animation-range: 18000px 21000px;
 }
 
 .templeOfJanus {
-    animation-range: 24000px 29000px;
+    animation-range: 26000px 28000px;
 }
 
 .basilicaPorcia {
-    animation-range: 24000px 29000px;
+    animation-range: 26500px 28000px;
 }
 
 .venusGenetrixButton {
 
     position: fixed;
     top: 10%;
-    left: 83%
+    left: 50%
 
 }
 
@@ -100,7 +96,7 @@ section.vid.vid3 {
 
     position: fixed;
     top: 10%;
-    left: 83%
+    left: 83%;
 
 }
 
@@ -108,8 +104,8 @@ section.vid.vid3 {
 .comitiumButton {
 
     position: fixed;
-    top: 10%;
-    left: 83%
+    top: 83%;
+    left: 43%;
 
 }
 
@@ -118,7 +114,7 @@ section.vid.vid3 {
 
     position: fixed;
     top: 10%;
-    left: 83%
+    left: 63%;
 
 }
 
@@ -126,8 +122,16 @@ section.vid.vid3 {
 .templeOfSaturnButton {
 
     position: fixed;
-    top: 10%;
-    left: 83%
+    top: 30%;
+    left: 33%;
+
+}
+
+.basilicaSemproniaButton {
+
+    position: fixed;
+    top: 60%;
+    left: 10%;
 
 }
 
@@ -136,33 +140,15 @@ section.vid.vid3 {
 
     position: fixed;
     top: 10%;
-    left: 83%
-
-}
-
-
-.templeOfVespasianAndTitusButton {
-
-    position: fixed;
-    top: 10%;
-    left: 83%
+    left: 83%;
 
 }
 
 .basilicaAemiliaButton {
 
     position: fixed;
-    top: 10%;
-    left: 83%
-
-}
-
-
-.gemonianStairsButton {
-
-    position: fixed;
-    top: 10%;
-    left: 83%
+    top: 80%;
+    left: 13%;
 
 }
 
@@ -170,16 +156,16 @@ section.vid.vid3 {
 .templeOfJanusButton {
 
     position: fixed;
-    top: 10%;
-    left: 83%
+    bottom: 10%;
+    left: 55%;
 
 }
 
 .basilicaPorcia {
 
     position: fixed;
-    top: 10%;
-    left: 83%
+    top: 80%;
+    left: 75%;
 
 }
 

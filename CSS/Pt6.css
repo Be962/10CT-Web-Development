@@ -36,11 +36,11 @@ section.vid.vid6 {
 }
 
 .basilicaOfNeptune {
-    animation-range: 20000px 30000px;
+    animation-range: 20000px 23000px;
 }
 
 .bathsOfAlexanderSeverus {
-    animation-range: 30000px 40000px;
+    animation-range: 25000px 33000px;
 }
 
 .gardensOfAgrippaButton {
@@ -54,23 +54,23 @@ section.vid.vid6 {
 .bathsOfAgrippaButton {
 
     position: fixed;
-    top: 10%;
-    left: 83%
+    top: 60%;
+    left: 73%
 
 }
 
 .basilicaOfNeptune {
 
     position: fixed;
-    top: 10%;
-    left: 83%
+    top: 20%;
+    left: 70%;
 
 }
 
 .bathsOfAlexanderSeverus {
 
     position: fixed;
-    top: 10%;
-    left: 83%
+    top: 50%;
+    left: 20%;
 
 }

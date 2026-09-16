@@ -37,15 +37,15 @@ section.vid.vid2 {
 /* Points of Interest */
 
 .culturalStorage {
-    animation-range: 5000px 15000px;
+    animation-range: 7000px 12000px;
 }
 
 .porticoPax {
-    animation-range: 16000px 20000px;
+    animation-range: 6000px 25000px;
 }
 
 .templeOfMinerva {
-    animation-range: 28000px 31000px;
+    animation-range: 28000px 30000px;
 }
 
 .uglyColumns {
@@ -69,7 +69,7 @@ section.vid.vid2 {
 }
 
 .forumPeace {
-    animation-range: 6000px 21000px;
+    animation-range: 6000px 25000px;
 }
 
 /* Points of Interest Buttons (Placeholders for Now)*/
@@ -77,8 +77,8 @@ section.vid.vid2 {
 .culturalStorageButton {
 
     position: fixed;
-    top: 10%;
-    left: 83%
+    bottom: 10%;
+    left: 50%;
 
 }
 
@@ -86,7 +86,7 @@ section.vid.vid2 {
 
     position: fixed;
     top: 10%;
-    left: 83%
+    left: 13%
 
 }
 
@@ -94,15 +94,15 @@ section.vid.vid2 {
 
     position: fixed;
     top: 10%;
-    left: 83%
+    left: 50%
 
 }
 
 .uglyColumnsButton {
 
     position: fixed;
-    top: 10%;
-    left: 83%
+    top: 50%;
+    left: 13%
 
 }
 
@@ -110,7 +110,7 @@ section.vid.vid2 {
 
     position: fixed;
     top: 10%;
-    left: 83%
+    left: 50%;
 
 }
 

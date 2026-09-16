@@ -29,30 +29,30 @@ section.vid.vid4 {
 /* Points of Interest */
 
 .templeOfMinerva {
-    animation-range: 5000px 10000px;
+    animation-range: 3000px 7000px;
 }
 
 .divorum {
-    animation-range: 5000px 10000px;
+    animation-range: 3000px 12000px;
 }
 
 .minuciaFrumentaria {
-    animation-range: 24000px 29000px;
+    animation-range: 24000px 31000px;
 }
 
 .templeofNymphs {
-    animation-range: 24000px 29000px;
+    animation-range: 25000px 28000px;
 }
 
 .theatreOfBalbus {
-    animation-range: 26000px 29000px;
+    animation-range: 26000px 30000px;
 }
 
 .templeOfMinervaButton {
 
     position: fixed;
-    top: 10%;
-    left: 83%
+    top: 60%;
+    left: 35%;
 
 }
 
@@ -60,7 +60,7 @@ section.vid.vid4 {
 
     position: fixed;
     top: 10%;
-    left: 83%
+    left: 83%;
 
 }
 
@@ -68,22 +68,22 @@ section.vid.vid4 {
 
     position: fixed;
     top: 10%;
-    left: 83%
+    left: 83%;
 
 }
 
 .templeofNymphsButton {
 
     position: fixed;
-    top: 10%;
-    left: 83%
+    top: 80%;
+    left: 18%;
 
 }
 
 .theatreOfBalbusButton {
 
     position: fixed;
-    top: 10%;
-    left: 83%
+    top: 30%;
+    left: 23%;
 
 }
