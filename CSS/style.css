@@ -198,10 +198,22 @@ body {
     
 }
 
+.mapButtons a {
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out;
+    text-shadow:rgba(0, 0, 0, 0.9)
+
+}
+
 .mapButtons:hover {
 
     background-color: white;
     border-color: white;
+    color: #C0392B;
+}
+
+.mapButtons:hover a {
     color: #C0392B;
 }
 
@@ -211,6 +223,7 @@ body {
     top: 150px;
     width: 200px;
     pointer-events: none;
+    text-shadow:rgba(0, 0, 0, 0.9)
 }
 
 .leftText h3{
@@ -219,6 +232,7 @@ body {
     right: 150px;
     width: 200px;
     pointer-events: none;
+    text-shadow:rgba(0, 0, 0, 0.9)
 }
 
 .rightText h3{
@@ -227,6 +241,7 @@ body {
     left: 150px;
     width: 200px;
     pointer-events: none;
+    text-shadow:rgba(0, 0, 0, 0.9)
 }
 
 .upText h3{
@@ -235,6 +250,7 @@ body {
     bottom: 150px;
     width: 200px;
     pointer-events: none;
+    text-shadow:rgba(0, 0, 0, 0.9)
 }
 
 .informationButton:hover h3{
