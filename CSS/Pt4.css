@@ -48,6 +48,10 @@ section.vid.vid4 {
     animation-range: 26000px 30000px;
 }
 
+.mapRange{
+    animation-range: 0px 32750px;
+}
+
 .templeOfMinervaButton {
 
     position: fixed;

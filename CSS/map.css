@@ -1,0 +1,40 @@
+.map {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.part1{
+    left: 40%;
+    top: 10%;
+}
+
+.part2{
+    left: 45%;
+    top: 15%;
+}
+
+.part3{
+    left: 50%;
+    top: 20%;
+}
+
+.part4{
+    left: 50%;
+    top: 35%;
+}
+
+.part5{
+    left: 70%;
+    top: 40%;
+}
+
+.part6{
+    left: 80%;
+    top: 55%;
+}
+
+.part7{
+    left: 60%;
+    top: 80%;
+}

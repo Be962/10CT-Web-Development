@@ -43,6 +43,10 @@ section.vid.vid6 {
     animation-range: 25000px 33000px;
 }
 
+.mapRange{
+    animation-range: 0px 46500px;
+}
+
 .gardensOfAgrippaButton {
 
     position: fixed;

@@ -86,13 +86,12 @@ body {
 }
 
 .nextPageButton a {
-    transform: translateX(-50%);
     position: fixed;
     height: 200px;
     width: 200px;
     bottom: 10%;
     z-index: 3;
-    left: 50%;
+    left: 45%;
 
     background-color: rgba(255, 255, 255, 0);
     border-color: #C0392B;
@@ -121,9 +120,9 @@ body {
     background-color: white;
     border-color: white;
     color: #C0392B;
+    animation: pulse 2s ease-in-out infinite;
 
 }
-
 .informationButton {
     background-color: rgba(255, 255, 255, 0);
     border-color: #C0392B;
@@ -166,6 +165,46 @@ body {
     font-weight: lighter;
 }
 
+.mapButtons {
+
+    background-color: rgba(255, 255, 255, 0);
+    border-color: #C0392B;
+    border-style: solid;
+    color: white;
+
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    display:flex;
+
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    font-size: large;
+
+    z-index: 3;
+
+    border-width: 2px;
+    border-radius: 50%;
+    
+    font-family: "Times New Roman", Times, serif;
+    font-weight: lighter;
+
+    transition:all 0.5s ease-in-out;
+    text-decoration: none;
+    
+}
+
+.mapButtons:hover {
+
+    background-color: white;
+    border-color: white;
+    color: #C0392B;
+}
+
 .bottomText h3{
     opacity: 0;
     position:fixed;
@@ -204,6 +243,32 @@ body {
     transition:all 0.5s ease
 }
 
+.mapButton {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    height: 40px;
+    width: 40px;
+    left: 90%;
+    top: 90%;
+
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    display:flex;
+
+    z-index: 3;
+    position: fixed;
+    text-decoration: none;
+
+}
+
+/* Animation setup */
+
+
 .fadeText { /* Creates the animation that the text calls on */
     animation: fadeText cubic-bezier(0.25, 0.46, 0.45, 0.94) both; /* sets up an animation */
     animation-timeline: scroll(root); /* sets the animation to using scroll as a timeline, rather than time */
@@ -221,6 +286,17 @@ body {
 
 /* This sets the range that keyframes will act within */
 
+@keyframes pulse {
+    0% {
+        transform:scale(1)
+    }
+    50% {
+        transform:scale(1.2)
+    }
+    100% {
+        transform:scale(1)
+    }
+}
 
 @keyframes fadeText{ /* This determines at which point in the timeline different things happen, e.g. set opacity to 1 between 20% and 80% of the way through */
     0% {

@@ -22,6 +22,10 @@ section.vid.vid7 {
     animation-range: 4000px 5660px;
 }
 
+.mapRange{
+    animation-range: 0px 20250px;
+}
+
 /* Points of Interest */
 
 .thePantheon {

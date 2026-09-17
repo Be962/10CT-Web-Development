@@ -45,6 +45,10 @@ section.vid.vid1 { /* Each video has a different length, so each section has to 
     animation-range: 15830px 18000px;
 }
 
+.mapRange{
+    animation-range: 14000px 35250px;
+}
+
 /* <!-- Colossus Solis, Temple of venus and Roma, Meta Sudans fountain, Arch of Constantine --> */
 
 .colossusSolisButton {

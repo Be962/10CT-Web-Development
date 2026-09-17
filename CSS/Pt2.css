@@ -72,6 +72,10 @@ section.vid.vid2 {
     animation-range: 6000px 25000px;
 }
 
+.mapRange{
+    animation-range: 0px 45250px;
+}
+
 /* Points of Interest Buttons (Placeholders for Now)*/
 
 .culturalStorageButton {
