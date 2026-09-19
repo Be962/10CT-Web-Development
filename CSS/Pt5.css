@@ -2,6 +2,10 @@ section.vid.vid5 {
     height: 17500px;
 }
 
+.titleRange {
+    animation-range: 0px 1000px;
+}
+
 .textRange1 { 
     animation-range: 1000px 3000px;
 }

@@ -2,6 +2,10 @@ section.vid.vid1 { /* Each video has a different length, so each section has to 
     height: 36250px;
 }
 
+.titleRange {
+    animation-range: 0px 1000px;
+}
+
 .textRange1 { 
     animation-range: 1250px 3750px;
 }

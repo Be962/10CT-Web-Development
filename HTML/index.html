@@ -9,6 +9,14 @@
         <link rel="stylesheet" href="../CSS/Pt1.css">
     </head>
 
+    <!-- Music -->
+
+    <audio id="music" autoplay loop muted>
+        <source src="../Music/RomeMusic1.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="musicButton" class="musicButton mapRange infoFade">🔇</button>
+
     <!-- Intro cinematic text -->
 
     <body>
@@ -22,6 +30,14 @@
             <h1 class="titlePage">Rome</h1>
         </div>
 
+        <div class="titlePageText titleRange titleFadeOut">
+            <h1>If Rome falls, the world will fall. <br> - The Venerable Bede</h1>
+        </div>
+
+        <div class="scrollArrow scrollBounce titleFadeOut">
+            <h1 class="titleRange titleFadeOut">↓</h1>
+        </div>
+
         <!-- Captions -->
 
         <div class="overlayText captionsRange1 fadeText">
@@ -29,8 +45,13 @@
         </div>
 
         <div class="overlayText nextPageRange buttonState nextPageButton">
-            <a href="Pt2.html">Go</a>
+            <a href="Pt2.html">Enter</a>
         </div>
+
+        <div class="titlePageText nextPageRange fadeText">
+            <h1>Imperial Fora <br> The centre of Roman civicism</h1>
+        </div>
+
 
         <div class="informationButton infoFade mapButton mapRange">
             <a style="text-decoration: none; color:white;" href="map.html">Map</a>
@@ -71,6 +92,7 @@
         </section>
         
         <script src="../JS/scrubbing.js"></script>
+        <script src="../JS/music.js"></script>
 
     </body>
 </html>

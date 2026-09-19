@@ -9,13 +9,21 @@
         <link rel="stylesheet" href="../CSS/Pt6.css">
     </head>
 
-    <body>
-        <div>
-            <a href="index.html">Home</a>
-        </div>
-    </body>
+    <audio id="music" autoplay loop muted>
+        <source src="../Music/RomeMusic6.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="musicButton" class="musicButton mapRange infoFade">🔇</button>
 
     <!-- Captions -->
+
+    <div class="titlePageText">
+        <h1 class="titleFadeOut textRange1">Gardens of Agrippa<br>The monumentalism of the Roman elites</h1>
+    </div>
+
+    <div class="titlePageText nextPageRange fadeText">
+        <h1>The Pantheon<br>The best-preserved survivor of a bygone era</h1>
+    </div>
 
     <div class="overlayText captionsRange1 fadeText">
         <h2>Gardens of Agrippa</h2>
@@ -27,6 +35,10 @@
 
     <div class="infoFade mapButton mapRange informationButton">
         <a style="text-decoration: none; color:white;" href="map.html">Map</a>
+    </div>
+
+    <div class="scrollArrow scrollBounce">
+        <h1 class="titleRange titleFadeOut">↓</h1>
     </div>
 
     <!-- Information -->
@@ -58,9 +70,10 @@
     </section>
 
     <div class="overlayText nextPageRange buttonState nextPageButton pulse">
-        <a href="Pt7.html">Go</a>
+        <a href="Pt7.html">Enter</a>
     </div>
 
     <script src="../JS/scrubbing.js"></script>
+    <script src="../JS/music.js"></script>
 
 </html>

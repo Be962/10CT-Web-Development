@@ -9,17 +9,30 @@
         <link rel="stylesheet" href="../CSS/Pt2.css">
     </head>
 
-    <body>
-        <div>
-            <a href="index.html">Home</a>
-        </div>
-    </body>
+    <audio id="music" autoplay loop muted>
+        <source src="../Music/RomeMusic2.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="musicButton" class="musicButton mapRange infoFade">🔇</button>
 
     <div class="infoFade mapButton mapRange informationButton">
         <a style="text-decoration: none; color:white;" href="map.html">Map</a>
     </div>
 
+    <div class="titlePageText">
+        <h1 class="titleFadeOut textRange1">Imperial Fora <br> The centre of Roman civicism</h1>
+    </div>
+
+    <div class="scrollArrow scrollBounce">
+        <h1 class="titleRange titleFadeOut">↓</h1>
+    </div>
+    
+
     <!-- Captions -->
+
+    <div class="titlePageText nextPageRange fadeText">
+        <h1>Forum Romanum<br>The heart of Roman politics</h1>
+    </div>
 
     <div class="overlayText captionsRange1 fadeText">
         <h2>Forum of Peace</h2>
@@ -46,7 +59,7 @@
 
     <div class="informationButton porticoPax porticoPaxButton infoFade bottomText">
         <h2>Porticoes</h2>
-        <h3>The porticoes of the imperial fora were constrZucted out of exotic materials, such as marble, stone, and distinct decoration styles depending on the forum.</h3>
+        <h3>The porticoes of the imperial fora were constructed out of exotic materials, such as marble, stone, and distinct decoration styles depending on the forum.</h3>
     </div>
 
     <div class="informationButton templeOfMinerva templeOfMinervaButton infoFade leftText">
@@ -91,9 +104,10 @@
     </section>
 
     <div class="overlayText nextPageRange buttonState nextPageButton pulse">
-        <a href="Pt3.html">Go</a>
+        <a href="Pt3.html">Enter</a>
     </div>
 
     <script src="../JS/scrubbing.js"></script>
+    <script src="../JS/music.js"></script>
     
 </html>

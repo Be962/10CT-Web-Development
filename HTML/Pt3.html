@@ -9,11 +9,23 @@
         <link rel="stylesheet" href="../CSS/Pt3.css">
     </head>
 
-    <body>
-        <div>
-            <a href="index.html">Home</a>
-        </div>
-    </body>
+    <audio id="music" autoplay loop muted>
+        <source src="../Music/RomeMusic4.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="musicButton" class="musicButton mapRange infoFade">🔇</button>
+
+    <div class="titlePageText">
+        <h1 class="titleFadeOut textRange1">Forum Romanum<br>The heart of Roman politics</h1>
+    </div>
+
+    <div class="titlePageText nextPageRange fadeText">
+        <h1>Divorum & Minucia Frumentaria<br>Religion in upper and lower classes</h1>
+    </div>
+
+    <div class="scrollArrow scrollBounce">
+        <h1 class="titleRange titleFadeOut">↓</h1>
+    </div>
 
     <!-- Captions -->
 
@@ -46,7 +58,7 @@
         <h3>The Forum Romanum (Roman Forum) was the centre of life in Rome. It held elections, triumphal processions, and public spectacles such as criminal trials, speeches, and gladiatorial matches. As a result, it also has many temples and basilica's built around it.</h3>
     </div>
 
-    <div class="informationButton comitium comitiumButton infoFade leftText">
+    <div class="informationButton comitium comitiumButton infoFade upText">
         <h2>Comitium</h2>
         <h3>The Comitium (Assembly) was an open air gathering place that held assemblies and orators. Citizens met here to vote people into power in the Roman Republic. It was largely dismantled by Caesar in the 1st century BC to make room for the Curia Julia (main senate house)</h3>
     </div>
@@ -88,9 +100,10 @@
     </section>
 
     <div class="overlayText nextPageRange buttonState nextPageButton pulse">
-        <a href="Pt4.html">Go</a>
+        <a href="Pt4.html">Enter</a>
     </div>
 
     <script src="../JS/scrubbing.js"></script>
-        
+    <script src="../JS/music.js"></script>
+    
 </html>
