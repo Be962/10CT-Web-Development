@@ -4,17 +4,32 @@
 
 ### Divergent thinking
 
+![Mindmap](/DocumentationSS/Mindmap.png)
+
 ### Convergent thinking
+
+#### Swot Analyses (Yes that's the plural of Analysis I checked.)
+
+##### First 2 are ones I did for Maxi, other 2 are ones he did for me
+
+![Swot analysis 1](/DocumentationSS/Swot1.png)
+![Swot analysis 2](/DocumentationSS/Swot2.png)
+![Swot analysis 3](/DocumentationSS/Swot3.png)
+![Swot analysis 4](/DocumentationSS/Swot4.png)
+
+![Impact effort matrix](/DocumentationSS/ImpactEffortMatrix.png)
+
+#### Reflection: The ideas that I have are mostly bland. The ones with the lowest effort generally have a correspondingly low impact. On the impact effort matrix, the mindfulness app is the best impact-effort ratio, and is basically a combination of a bunch of other ideas. However as the SWOT analysis rightfully points out, there are many similar apps, and is fairly vague, making the app sort of bland as an idea. The other idea on the SWOT analysis is the Rome explored website. This is extremely interesting to me on a personal level, which offsets its higher effort on the impact-effort matrix. The SWOT analysis emphasises its high difficulty and high reward. Despite this increased difficulty, I will go with this idea because of my personal attachment to the idea, and its middling impact on the target map. 
 
 ### Requirements outline
 
 #### Functional requirements
 
-##### Should run with no major transition errors
+##### Should run with no major transition errors,
 
 ##### All information must be accurate and researched
 
-##### Should be a scroll website, similar to Getty Persepolis
+##### Should be a scroll website, similar to Getty Persepolis, for engagement
 
 #### Non-Functional requirements
 
@@ -42,13 +57,34 @@
 
 #### By providing history information and education in an interactive way to people who do not have access to formal education, but do have access to digital technology and the internet, my web app will help relieve this education problem. Because the website will be in english, it will be targeted towards english speaking countries, which already generally have higher completion rates, however even in these countries, phone access is correspondingly higher. 
 
+https://www.unesco.org/reports/gem-report/en/2026 
+https://datareportal.com/global-digital-overview 
+
 ### Primary research
 
+#### Primary research was conducted with a survey/google forms, attempting to gauge people's general understanding of ancient Rome, specifically in the domain of buildings and architecture. Although not everyone responded, most answers rated their knowledge as 2/5, and said they could name 1-3 or 4-6 buildings, as well as stating they would be extremely interesting in learning about ancient Rome. They also generally answered as being more open to learning about ancient Rome on a website than on a textbook.
 
+![Google forms image 1](DocumentationSS/GoogleForms1.png)
+![Google forms image 2](DocumentationSS/GoogleForms2.png)
+
+#### This essentially confirms that the project will have some impact on the target market if it can convey information effectively. Because most people are not entirely into websites, there will still be blocks of texts for more efficient learning, although most of the site will be based on engagement. 
 
 ### UI/UX Design
 
+#### It is very difficult to capture the essence of a scroll website with wireframes, I did my best. The images here represent the video that will be scrolled through, with text on top, and big subtitles. The circles have text in them and expand to show the information. 
+
+![Wireframe 1](/DocumentationSS/Informationpage-1.png)
+![Wireframe 2](/DocumentationSS/Informationpage-2.png)
+![Wireframe 3](/DocumentationSS/Informationpage-3.png)
+
 ### Prototype
+
+#### Similar to the UX wireframs, Its almost impossible, if not impossible to imitate a scroll based website with prototyping technology. However I added the modelling I did for the map and the start page I completed earlier. I submitted the xd file, here are some screenshots.
+
+![Title Page](DocumentationSS/AdobeTitlePage.png)
+![Colosseum](DocumentationSS/AdobeColosseum.png)
+![Pantheon](DocumentationSS/AdobePantheon.png)
+![Map](DocumentationSS/AdobeMap.png)
 
 ## Producing and implementing
 
@@ -56,19 +92,15 @@
 
 ### Documentation
 
-#### Development week 1:
+##### (Github commits are also a good amount of documentation)
 
 | Week (of development) | What was accomplished | What needs to be done next | Misc / Other thoughts | Screenshots / other evidence |
-| ---- | ---- | ----- | ----------- |
+| ---- | ---- | ----- | ----------- |----- |
 | 1 | This week I worked on the scroll scrubbing and creating a basic outline of the website, as well as some documentation / research scaffolding. I got the scroll scrubbing to work with javascript, with the help of a youtube video. Regarding videos, I found the main video that I will use for this project, and have been editing it to the size that is needed.| The next step for coding is to figure out how to add text to the pages as you scroll through, which will be the primary method of displaying information. I also need to plan out all of the buildings I will be covering, as there are many I can do in one go, and even more if cuts and transitions are used. | I will have to do much of this at home as the videos I intend to use of Rome are blocked on school wifi. Probably need a scalable model that allows more pages and information done by this weekend, although I don't know how likely that is to happen with the other exams |Youtube video: https://www.youtube.com/watch?v=L1eu737bu70 ![image](DocumentationSS/jsScrollScrubbing.png)|
-| 2 | This week has included putting text in the website in animation form, allowing it to be tinkered with until it looks cinematic. Also I am almost finished editing the video down into parts that I can put in the website. Plus I have a list of different buildings that I am planning to describe and put in the website. | Next up is transitions between pages and the implementation of the video must be done. | ![image](DocumentationSS/cssTextAnimation.png) |
+| 2 | This week has included putting text in the website in animation form, allowing it to be tinkered with until it looks cinematic. Also I am almost finished editing the video down into parts that I can put in the website. Plus I have a list of different buildings that I am planning to describe and put in the website. | Next up is transitions between pages and the implementation of the video must be done. | Prelims are heating up, not too much time to do this currently. |![image](DocumentationSS/cssTextAnimation.png) |
 | 3-3.5 (Monday Tuesday Wednesday) | This week all of the framework has been established. I created folders for all of the JS, CSS, and HTML, and ensured it all worked together properly. I cut the videos and put them in the html, and they can be navigated currently. Each of the videos has different heights, corresponding to their length, i.e. vid length x 1000px, although this is subject to change. Fixed performance issues that come from videos by encoding them with ffmpeg in git bash. | Next is the information + buttons, the polish will come later. The information will probably take the form of buttons + basic captions. The buttons can be clicked on to expand information, while basic captions might be the buildings currently in frame. Wednesday: Added most of the points of interests and placeholder (rough) animation ranges in css classes. | The video was very very finicky, some slight mistakes in video editor with fade in / out made me have to redo it multiple times to get it right, i had the fade out not completely covering the video timeline, so after the video faded completely to black, there was a single frame of the Rome video at the end. The encoding took some work, as I had to change the quality to make sure that each video file was under 100mb, or it wouldn't push to github properly. When I added the folders, I had to go through and change every reference in every page. Wednesday: Added most of the points of interests and placeholder (rough) animation ranges in css classes. This afternoon I will make sure to fix the animation ranges and put these in the actual website with html. I want to also make a map screen that shows the overall journey, which checkpoints for each page that are clickable for navigation. Also maybe an 'overarching' view of everything, with information bubbles for big areas of the city like the forums.| ![image](DocumentationSS/BaseTemplate.png) ![image](DocumentationSS/Folders.png)|
 | 3.5-4 (Thursday Friday Saturday Sunday) | These days most of the flesh of the website was added. Thursday consisted of adding all of the information/research and tweaking some of the button placements and ranges. It also had favicons (Thanks Adrian). Friday had more tweaking of the buttons. It also added a map to allow a different form of navigations. It had text shadow to show things better, and also animations such as the pulse animation to help with transitions. Saturday had every feature finalised, with the addition of another JS script for music, and a suitable button to accompany it. It also fixed the transitions that were added on Friday, certain issues like the text at the end black showing but not the beginning black. Many comments were added, and the style.css file was organised better. | In terms of production, the website is mostly finished, unless I think of anything that must be done last minute. I am happy to submit in the current state, although there is md work to be done. | There are many other features that could be added, but would take too much time for little benefit. The music in particular, while its cool, it doesn't autoplay once turned on, requiring turning on in each page, which can be a nuisance. But I would need to find a way to store the muted status in JS. Also, I can't think of a way that flask could have been implemented in an appropriate or necessary way for this task, since it is more of an experience than a traditional website that would need to save personal information. | Many of the files are too large to have screenshots showing the whole thing. ![image](DocumentationSS/musicFile.png)|
 
-
-### Version Control
-
-## Testing and evaluating
 
 ### Peer evaluation
 
@@ -76,13 +108,13 @@
 
 #### Charles: Said the project looked really good and was impressed. Said that the white text can be hard to read on the busy and bright background. In response I added text shadow to address this problem.
 
-#### Adrian: Came asking to look for... inspiration? examples for structuring html/css? Was really impressed, gave the suggestion to add favicons, the little icon at the top of the website, and helped me with that. I showed him how I structured my code, how classes in divs worked etc.
+#### Adrian: Came asking to look for... inspiration? examples for structuring html/css? Was really impressed, gave the suggestion to add favicons, the little icon at the left of the browser tab and helped me with that. I showed him how I structured my code, how classes in divs worked etc.
 
-![image](DocumentationSS/Swot1)
+#### See also SWOT Analyses
 
 ### Evaluation of issues
 
-#### Social: The website 
+#### Social: The website could be seen as glorifying Rome, which was historically a fairly brutal state that owned slaves and had an extremely rigid class hierarchy. This may be offensive to some people. This has been mitigated to some extent by keeping information factual, e.g. Vespasian started building the Colosseum. It also contains depictions of religious buildings, such as temples. The website is careful around these, to not push the religion or denigrate it. For example, describing the god or goddess that the temple represents, and its purpose in the context of Rome, rather than its impact on modern culture. 
 
 #### Ethical: Because the site is designed to seek engagement, the information boxes are quite small, when each box in reality could have several essays written about it. That is, much of the information is heavily condensed, which can create ethical issues on the fair and accurate representation of the various buildings seen throughout the project. Although, the site deals with this by attempting to be as neutral and factual as possible.
 
@@ -108,6 +140,8 @@
 
 ##### Site should be usable and intuitive: Achieves this outcome. Everything is clearly labelled, and scroll intention is outlined with an arrow in the very beginning and in every
 
-#### Project management: Project was managed fairly well overall. The idea was in place very early, allowing me to make plans early. I knew this was a very large project, and that it would be difficult to get the same scope as Getty Persepolis, as was my goal. As such, I heavily prioritised the site over other aspects of the project. Although plans were made early, much of the work was done in the final week, in terms of producing the website itself. I believe that some aspects of the site could have been created better, like the information buttons. In the end this prioritisation of the website lead to a rush in other aspects. However, I still believe that it was worth it to make sure the website was fully fleshed out and in a state that I am happy with.
+#### Project management
 
-#### Impact on target market: Unfortunately, realistically the project cannot be made available to the target market. Hypothetically, if it could, I believe that the site would have a large impact on those it reached. The engaging style makes it something fairly memorable, maybe the information less so. But I think that after a scroll through the site, one would be able to recognise those buildings, overall increasing their knowledge of ancient Rome. Those that do more than a cursory watch will come away with more knowledge, able to state buildings and purpose / who built them, as well as gain a greater knowledge for the general layout of Rome. Ultimately, I believe that the site would have a large impact on knowledge on Rome on those that it reached within the target market of non-formally educated individuals with internet access. 
+##### Project was managed fairly well overall. The idea was in place very early, allowing me to make plans early. I knew this was a very large project, and that it would be difficult to get the same scope as Getty Persepolis, as was my goal. As such, I heavily prioritised the site over other aspects of the project. Although plans were made early, much of the work was done in the final week, in terms of producing the website itself. I believe that some aspects of the site could have been created better, like the information buttons, and the structuring of the code itself could have been better. As the amount of classes in each div built up I tried nesting, but it broke everything, and I already had it in a working state. The naming of the classes could have been better too, as they are confusing because of their similar names and function. In the end this prioritisation of the website lead to a rush in other aspects. However, I still believe that it was worth it to make sure the website was fully fleshed out and in a state that I am happy with. Another factor that affected the backloading of the work was the preliminary exams, I knew a lot of the project would have to be done at home, and I couldn't really work on it while I had to prepare for maths and ancient history prelims.
+    
+##### Impact on target market: Unfortunately, realistically the project cannot be made available to the target market. Hypothetically, if it could, I believe that the site would have a large impact on those it reached. The engaging style makes it something fairly memorable, maybe the information less so. But I think that after a scroll through the site, one would be able to recognise those buildings, overall increasing their knowledge of ancient Rome. Those that do more than a cursory watch will come away with more knowledge, able to state buildings and purpose / who built them, as well as gain a greater knowledge for the general layout of Rome. Ultimately, I believe that the site would have a large impact on knowledge on Rome on those that it reached within the target market of non-formally educated individuals with internet access. 
