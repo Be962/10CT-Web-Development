@@ -1,6 +1,48 @@
+/* Determining where the information text will appear */
+
+.bottomText h3{
+    opacity: 0;
+    position:fixed;
+    top: 150px;
+    width: 200px;
+    pointer-events: none;
+    text-shadow:rgba(0, 0, 0, 0.9)
+}
+
+.leftText h3{
+    opacity: 0;
+    position:fixed;
+    right: 150px;
+    width: 200px;
+    pointer-events: none;
+    text-shadow:rgba(0, 0, 0, 0.9)
+}
+
+.rightText h3{
+    opacity: 0;
+    position:fixed;
+    left: 150px;
+    width: 200px;
+    pointer-events: none;
+    text-shadow:rgba(0, 0, 0, 0.9)
+}
+
+.upText h3{
+    opacity: 0;
+    position:fixed;
+    bottom: 150px;
+    width: 200px;
+    pointer-events: none;
+    text-shadow:rgba(0, 0, 0, 0.9)
+}
+
+/* A range that will be used by every title page */
+
 .titleRange {
     animation-range: 0px 2000px;
 }
+
+/* Video containment related */
 
 section.vid div.holder {
     position: sticky;
@@ -14,6 +56,8 @@ section.vid video {
     z-index: 1;
 }
 
+/* This gets rid of the white edges and margins around the video, making it fullscreen and cinematic */
+
 html, body {
     width: 100%;
     height: 100%;
@@ -21,10 +65,14 @@ html, body {
     padding: 0;
 }
 
-a:visited { /*keep the link the same colour after it has been visited */
+/*keep the link the same colour after it has been visited */
+
+a:visited {
     color:rgb(212, 198, 126);
     text-decoration: none;
 }
+
+/* Fallback basic text attributes */
 
 h1 {
     color: white;
@@ -44,7 +92,7 @@ body {
     text-align: center;
 }
 
-/* This determines where text will appear */
+/* Overlay text is large, intended for cinematics and captions. Centered in the middle of the screen to that end as well. */
 
 .overlayText {
     justify-content: center;
@@ -61,6 +109,8 @@ body {
     font-family: "Times New Roman", Times, serif;
     color: #E6D8BE;
 }
+
+/* Specifically to affect h2 */
 
 .overlayText h2{
 
@@ -86,6 +136,8 @@ body {
     
 }
 
+/* This is exclusively for the large 'R O M E' in the beginning, lots of text shadow, large font, and big spacing to emphasis rome. */
+
 .titlePage{
 
     font-size: 240px;
@@ -95,6 +147,8 @@ body {
     text-shadow: 1px 1px 100px rgba(0, 0, 0, 0.9);
     letter-spacing: 80px
 }
+
+/* This class is used for the descriptions during black screen in the start and end of each page.*/
 
 .titlePageText {
 
@@ -114,6 +168,8 @@ body {
     pointer-events: none;
 
 }
+
+/* Referred to as a button, although it is hoverable instead of clickable. They are the method through which the information is accessed. */
 
 .informationButton {
     background-color: rgba(255, 255, 255, 0);
@@ -146,9 +202,13 @@ body {
     pointer-events: none;
 }
 
+/* Give the white text some shadow to help it stand out on the loud and busy backgrounds */
+
 .informationButton h3 {
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
 }
+
+/* When hovering, change the button, making it feel more premium. */
 
 .informationButton:hover {
 
@@ -160,6 +220,14 @@ body {
 .informationButton h3 {
     font-weight: lighter;
 }
+
+.informationButton:hover h3{
+    opacity: 1;
+    color: white;
+    transition:all 0.5s ease
+}
+
+/* Smaller buttons used on the map for more precision. */
 
 .mapButtons {
 
@@ -213,47 +281,7 @@ body {
     color: #C0392B;
 }
 
-.bottomText h3{
-    opacity: 0;
-    position:fixed;
-    top: 150px;
-    width: 200px;
-    pointer-events: none;
-    text-shadow:rgba(0, 0, 0, 0.9)
-}
-
-.leftText h3{
-    opacity: 0;
-    position:fixed;
-    right: 150px;
-    width: 200px;
-    pointer-events: none;
-    text-shadow:rgba(0, 0, 0, 0.9)
-}
-
-.rightText h3{
-    opacity: 0;
-    position:fixed;
-    left: 150px;
-    width: 200px;
-    pointer-events: none;
-    text-shadow:rgba(0, 0, 0, 0.9)
-}
-
-.upText h3{
-    opacity: 0;
-    position:fixed;
-    bottom: 150px;
-    width: 200px;
-    pointer-events: none;
-    text-shadow:rgba(0, 0, 0, 0.9)
-}
-
-.informationButton:hover h3{
-    opacity: 1;
-    color: white;
-    transition:all 0.5s ease
-}
+/* This is the button that you click to get to the map itself */
 
 .mapButton {
     border-radius: 50%;
@@ -277,6 +305,8 @@ body {
     text-decoration: none;
 
 }
+
+/* This is the design for the border of the music button, it is extremely similar to the mapbutton so the design looks cohesive. The icon comes from javascript however. */
 
 .musicButton {
     border-radius: 50%;
@@ -306,9 +336,7 @@ body {
 
 }
 
-.loadAnimation {
-    animation: titleFadeIn 2s ease forwards;
-}
+/* This is the design for the button that goes to the next page. It has a pulse animation, to hold attention and drive engagement */
 
 .nextPageButton a {
     position: fixed;
@@ -340,6 +368,8 @@ body {
     transition:all 0.5s ease-in-out;
 }
 
+/* Pulse on hover */
+
 .nextPageButton a:hover { /* Changes the button when hovered over */
     
     background-color: white;
@@ -348,6 +378,8 @@ body {
     animation: pulse 2s ease-in-out infinite;
 
 }
+
+/* Make an arrow to help users recognise that the site should be scrolled */
 
 .scrollArrow {
     position: fixed;
@@ -429,7 +461,7 @@ body {
     }
 }
 
-@keyframes fadeText{ /* This determines at which point in the timeline different things happen, e.g. set opacity to 1 between 20% and 80% of the way through */
+@keyframes fadeText{
     0% {
         opacity: 0;
         filter:drop-shadow(0px 0px 0px rgba(black, 0));
@@ -444,6 +476,8 @@ body {
         opacity: 0;
     }
 } 
+
+/* Shouldn't allow buttons to be hovered too early */
 
 @keyframes buttonState{
     0% {
@@ -466,7 +500,7 @@ body {
         opacity: 1;
         filter:drop-shadow(4px 4px 8px rgba(black, 1));
         transform: translateY(0px);
-        pointer-events: auto; /* This fixes the problem that buttons that overlapped but were invisible because of different animation ranges stopped each other from working.*/
+        pointer-events: auto; /* This fixes the problem that buttons that overlapped but were invisible because of different animation ranges stopped each other from working. Similar solutions are found in other places as well*/
     }
     100% {
         opacity: 0;
